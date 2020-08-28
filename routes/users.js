@@ -19,7 +19,7 @@ router.post('/', [
         return res.status(400).json({ errors: errors.array() });
     }
 
-    res.send('passed');
+    res.send('this has passed');
 });
 
 module.exports = router;
