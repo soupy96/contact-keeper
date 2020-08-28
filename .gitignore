@@ -1,3 +1,2 @@
 # this ignores the node modules folder whenever i push to this respository
 node_modules/
-config/default.json
