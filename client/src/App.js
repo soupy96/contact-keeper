@@ -2,8 +2,8 @@ import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.css';
 import Navbar from './components/layout/Navbar';
-import Home from './components/pages/Home'
-import About from './components/pages/About'
+import Home from './components/pages/Home.js'
+import About from './components/pages/About.js'
 import ContactState from './context/contact/ContactState'
 
 const App = () => {
